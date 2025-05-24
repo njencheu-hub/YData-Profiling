@@ -4,7 +4,7 @@ from os import getcwd
 from ydata_profiling import ProfileReport
 
 # Path to the CSV file
-data_path = getcwd() + "/data/International_Education_Costs.csv"
+data_path = getcwd() + "\data\csv_files\International_Education_Costs.csv"
 
 # Read the CSV as a DataFrame
 df = pd.read_csv(filepath_or_buffer=data_path)
@@ -27,7 +27,7 @@ df.info()
 report = ProfileReport(df=df, explorative=True, title='International Education Analytics')
 
 # Profile Path
-profile_path = getcwd() + "/data/profile_reports"
+profile_path = getcwd() + "\data\profile_reports"
 
 # Name of the file
 file_name = 'international_education_report.html'
