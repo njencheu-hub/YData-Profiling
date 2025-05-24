@@ -1,0 +1,5 @@
+ydata-profiling
+pandas
+psycopg2-binary
+sqlalchemy
+python-dotenv
